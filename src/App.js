@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './composants/Header';
-import HommeSection from './composants/HomeSection';
+import HomeSection from './composants/HomeSection';
 import ServiceSection from'./composants/ServiceSection';
 import AboutSection from './composants/AboutSection';
 import GallerySection from './composants/GallerySection';
@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <Header />
-      <HommeSection />
+      <HomeSection />
       <ServiceSection />
       <AboutSection />
       <GallerySection />
