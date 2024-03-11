@@ -5,7 +5,6 @@ const AboutSection = () => {
     <section className="about" id="about">
       <h1 className="heading"><span>À propos</span>  de nous</h1>
       <div className="row">
-        {<>
   <div className="image">
     <img
       src="/Images/360_F_216946587_rmug8FCNgpDCPQlstiCJ0CAXJ2sqPRU7 (1).jpg"
@@ -33,8 +32,6 @@ const AboutSection = () => {
       Rejoins-nous
     </a>
   </div>
-</>
-}
       </div>
     </section>
   );

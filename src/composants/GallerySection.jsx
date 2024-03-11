@@ -5,7 +5,7 @@ const GallerySection = () => {
     <section className="gallery" id="gallery">
       <h1 className="heading">notre <span>gallerie</span></h1>
       <div className="box-container">
-        {<>
+
   <div className="box">
     <img src="images/FB_IMG_17091265804669289.jpg" alt="" />
     <h3 className="title">meilleurs evenements</h3>
@@ -96,8 +96,6 @@ const GallerySection = () => {
       <a href="#" className="fas fa-eye" />
     </div>
   </div>
-</>
-}
       </div>
     </section>
   );
