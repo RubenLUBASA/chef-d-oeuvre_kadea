@@ -1,5 +1,5 @@
 import './App.css';
-import './customusScript';
+// import './customusScript.js';
 import Header from './composants/Header';
 import HommeSection from './composants/HomeSection';
 import ServiceSection from'./composants/ServiceSection';
@@ -8,7 +8,7 @@ import GallerySection from './composants/GallerySection';
 import PriceSection from './composants/PriceSection';
 import ReviewSection from './composants/ReviewSection';
 import ContactSection from './composants/ContactSection';
-import Toogler from './composants/Toogler';
+import ThemeToggler from './composants/ThemeToggler';
 import Footer from './composants/Footer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -24,7 +24,7 @@ function App() {
       <PriceSection />
       <ReviewSection />
       <ContactSection />
-      <Toogler />
+      <ThemeToggler />
       <Footer />
       
     </div>
