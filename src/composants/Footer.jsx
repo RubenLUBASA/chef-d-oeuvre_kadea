@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <section className="footer">
       <div className="box-container">
-        {<>
   <div className="box">
     <h3>branches</h3>
     <a href="#">
@@ -100,8 +99,6 @@ const Footer = () => {
       <i className="fab fa-linkedin-in" /> linkedin{" "}
     </a>
   </div>
-</>
-}
       </div>
       <div className="credit">
         créer par <span>Dev-Ru-flavio</span> | tout droit réserver
