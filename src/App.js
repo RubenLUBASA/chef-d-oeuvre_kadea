@@ -1,14 +1,14 @@
 import './App.css';
-import Header from './composants/Header';
-import HomeSection from './composants/HomeSection';
-import ServiceSection from'./composants/ServiceSection';
-import AboutSection from './composants/AboutSection';
-import GallerySection from './composants/GallerySection';
-import PriceSection from './composants/PriceSection';
-import ReviewSection from './composants/ReviewSection';
-import ContactSection from './composants/ContactSection';
-import ThemeToggler from './composants/ThemeToggler';
-import Footer from './composants/Footer';
+import Header from './Composants/Header';
+import HomeSection from './Composants/HomeSection';
+import ServiceSection from'./Composants/ServiceSection';
+import AboutSection from './Composants/AboutSection';
+import GallerySection from './Composants/GallerySection';
+import PriceSection from './Composants/PriceSection';
+import ReviewSection from './Composants/ReviewSection';
+import ContactSection from './Composants/ContactSection';
+import ThemeToggler from './Composants/ThemeToggler';
+import Footer from './Composants/Footer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
