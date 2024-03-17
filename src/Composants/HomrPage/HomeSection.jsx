@@ -38,28 +38,28 @@ const HomeSection = () => {
       <div className="swiper-container home-slider">
         <div className="swiper-wrapper">
           <div className="swiper-slide">
-            <img src="Composants/Images/home1.jpg" alt="" />
+            <img src="Composants/images/home_1.jpg" alt="" />
           </div>
           <div className="swiper-slide">
-            <img src="Composants/Images/home2.jpg" alt="" />
+            <img src="Composants/images/home_2.jpg" alt="" />
           </div>
           <div class="swiper-slide">
-            <img src="Composants/Images/FB_IMG_17091215504602866.jpg" alt="" />
+            <img src="Composants/images/home_3.jpg" alt="" />
           </div>
           <div class="swiper-slide">
-            <img src="Composants/Images/Screenshot_20240209-202837.jpg" alt="" />
+            <img src="Composants/images/home_4.jpg" alt="" />
           </div>
           <div class="swiper-slide">
-            <img src="Composants/Images/FB_IMG_17090632329086986.jpg" alt="" />
+            <img src="Composants/images/home_5.jpg" alt="" />
           </div>
           <div class="swiper-slide">
-            <img src="Composants/Images/FB_IMG_17091230183226957.jpg" alt="" />
+            <img src="Composants/images/home_6.jpg" alt="" />
           </div>
           <div class="swiper-slide">
-            <img src="Composants/Images/FB_IMG_17091230387418972.jpg" alt="" />
+            <img src="Composants/images/home_7.jpg" alt="" />
           </div>
           <div class="swiper-slide">
-            <img src="Composants/Images/FB_IMG_17091230096214025.jpg" alt="" />
+            <img src="Composants/images/home_8.jpg" alt="" />
           </div>
         </div>
         </div>
