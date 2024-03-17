@@ -5,7 +5,7 @@ const Event = () => {
         <div className="container">
             <div className="item-container">
                 <div className="img-container">
-                    <img src="images/img_1.jpg" alt="Event image" />
+                    <img src="../images/img_1.jpg" alt="Event image" />
                 </div>
 
                 <div className="body-container">
@@ -39,7 +39,7 @@ const Event = () => {
             {/* Deuxième événement */}
             <div className="item-container">
                 <div className="img-container">
-                    <img src="images/img_2.jpg" alt="Event image" />
+                    <img src="../images/img_2.jpg" alt="Event image" />
                 </div>
 
                 <div className="body-container">
@@ -73,7 +73,7 @@ const Event = () => {
             {/* Troisième événement */}
             <div className="item-container">
                 <div className="img-container">
-                    <img src="images/img_3.jpg" alt="Event image" />
+                    <img src="i../mages/img_3.jpg" alt="Event image" />
                 </div>
 
                 <div className="body-container">
@@ -107,7 +107,7 @@ const Event = () => {
             {/* Quatrième événement */}
             <div className="item-container">
                 <div className="img-container">
-                    <img src="images/img_4.jpg" alt="Event image" />
+                    <img src="../images/img_4.jpg" alt="Event image" />
                 </div>
 
                 <div className="body-container">
