@@ -7,7 +7,7 @@ const GallerySection = () => {
       <div className="box-container">
 
   <div className="box">
-    <img src="Composants/images/gallery_1.jpg" alt="" />
+    <img src="../images/gallery_1.jpg" alt="" />
     <h3 className="title">meilleurs evenements</h3>
     <div className="icons">
       <a href="#" className="fas fa-heart" />
@@ -16,7 +16,7 @@ const GallerySection = () => {
     </div>
   </div>
   <div className="box">
-    <img src="Composants/images/gallery_2.jpg" alt="" />
+    <img src="../images/gallery_2.jpg" alt="" />
     <h3 className="title">meilleurs evenements</h3>
     <div className="icons">
       <a href="#" className="fas fa-heart" />
@@ -25,7 +25,7 @@ const GallerySection = () => {
     </div>
   </div>
   <div className="box">
-    <img src="Composants/images/gallery_3.jpg" alt="" />
+    <img src="../images/gallery_3.jpg" alt="" />
     <h3 className="title">meilleurs evenements</h3>
     <div className="icons">
       <a href="#" className="fas fa-heart" />
@@ -34,7 +34,7 @@ const GallerySection = () => {
     </div>
   </div>
   <div className="box">
-    <img src="Composants/images/gallery_4.jpg" alt="" />
+    <img src="../images/gallery_4.jpg" alt="" />
     <h3 className="title">meilleurs evenements</h3>
     <div className="icons">
       <a href="#" className="fas fa-heart" />
@@ -43,7 +43,7 @@ const GallerySection = () => {
     </div>
   </div>
   <div className="box">
-    <img src="Composants/images/gallery_5.jpg" alt="" />
+    <img src="../images/gallery_5.jpg" alt="" />
     <h3 className="title">meilleurs evenements</h3>
     <div className="icons">
       <a href="#" className="fas fa-heart" />
@@ -52,7 +52,7 @@ const GallerySection = () => {
     </div>
   </div>
   <div className="box">
-    <img src="Composants/images/gallery_6.jpeg" alt="" />
+    <img src="../images/gallery_6.jpeg" alt="" />
     <h3 className="title">meilleurs evenements</h3>
     <div className="icons">
       <a href="#" className="fas fa-heart" />
@@ -61,7 +61,7 @@ const GallerySection = () => {
     </div>
   </div>
   <div className="box">
-    <img src="Composants/images/gallery_7.jpeg" alt="" />
+    <img src="../images/gallery_7.jpeg" alt="" />
     <h3 className="title">meilleurs evenements</h3>
     <div className="icons">
       <a href="#" className="fas fa-heart" />
@@ -70,7 +70,7 @@ const GallerySection = () => {
     </div>
   </div>
   <div className="box">
-    <img src="Composants/images/gallery_8.jpg" alt="" />
+    <img src="../images/gallery_8.jpg" alt="" />
     <h3 className="title">meilleurs evenements</h3>
     <div className="icons">
       <a href="#" className="fas fa-heart" />
@@ -79,7 +79,7 @@ const GallerySection = () => {
     </div>
   </div>
   <div className="box">
-    <img src="Composants/images/gallery_9.jpg" alt="" />
+    <img src="../images/gallery_9.jpg" alt="" />
     <h3 className="title">meilleurs evenements</h3>
     <div className="icons">
       <a href="#" className="fas fa-heart" />
@@ -88,7 +88,7 @@ const GallerySection = () => {
     </div>
   </div>
   <div className="box">
-    <img src="kadea-react/src/Composants/images/gallery_10.jpg" alt="" />
+    <img src="../images/gallery_10.jpg" alt="" />
     <h3 className="title">meilleurs evenements</h3>
     <div className="icons">
       <a href="#" className="fas fa-heart" />

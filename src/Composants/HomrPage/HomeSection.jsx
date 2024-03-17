@@ -38,7 +38,7 @@ const HomeSection = () => {
       <div className="swiper-container home-slider">
         <div className="swiper-wrapper">
           <div className="swiper-slide">
-            <img src="public/images/home_1.jpg" alt="" />
+            <img src="../images/home_1.jpg" alt="" />
           </div>
           <div className="swiper-slide">
             <img src="../images/home_2.jpg" alt="" />

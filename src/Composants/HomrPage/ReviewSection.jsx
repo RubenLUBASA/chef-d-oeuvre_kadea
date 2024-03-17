@@ -37,7 +37,7 @@ let ReviewSection = () => {
   <div className="swiper-slide box">
     <i className="fas fa-quote-right" />
     <div className="user">
-      <img src="images/Screenshot_20240209-202837.jpg" alt="" />
+      <img src="../images/home_9.jpg" alt="" />
       <div className="user-info">
         <h3>ruben lubasa</h3>
         <span>client satisfait</span>
@@ -52,7 +52,7 @@ let ReviewSection = () => {
   <div className="swiper-slide box">
     <i className="fas fa-quote-right" />
     <div className="user">
-      <img src="images/Screenshot_20240209-202837.jpg" alt="" />
+      <img src="../images/review_2.jpg" alt="" />
       <div className="user-info">
         <h3>ben busha</h3>
         <span>client satisfait</span>
@@ -67,7 +67,7 @@ let ReviewSection = () => {
   <div className="swiper-slide box">
     <i className="fas fa-quote-right" />
     <div className="user">
-      <img src="images/Screenshot_20240209-202837.jpg" alt="" />
+      <img src="../images/review_2.jpg" alt="" />
       <div className="user-info">
         <h3>umberto</h3>
         <span>client satisfait</span>
@@ -82,7 +82,7 @@ let ReviewSection = () => {
   <div className="swiper-slide box">
     <i className="fas fa-quote-right" />
     <div className="user">
-      <img src="images/Screenshot_20240209-202837.jpg" alt="" />
+      <img src="../images/home_9.jpg" alt="" />
       <div className="user-info">
         <h3>flavio</h3>
         <span>client satisfait</span>
