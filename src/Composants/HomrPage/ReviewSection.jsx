@@ -3,7 +3,7 @@ import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
 let ReviewSection = () => {
   useEffect(() => {
-    var swiper = new Swiper(".Review-Slider", {
+    var swiper = new Swiper(".review-slider", {
       SlidesPerView: 1,
       GrabCursor: true,
       Loop: true,
@@ -44,9 +44,8 @@ let ReviewSection = () => {
       </div>
     </div>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor
-      dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam
-      iure nisi unde et assumenda perspiciatis voluptatibus nihil.
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor
+      dicta cum.
     </p>
   </div>
   <div className="swiper-slide box">
@@ -60,8 +59,7 @@ let ReviewSection = () => {
     </div>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor
-      dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam
-      iure nisi unde et assumenda perspiciatis voluptatibus nihil.
+      dicta cum. 
     </p>
   </div>
   <div className="swiper-slide box">
@@ -75,8 +73,7 @@ let ReviewSection = () => {
     </div>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor
-      dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam
-      iure nisi unde et assumenda perspiciatis voluptatibus nihil.
+      dicta cum. 
     </p>
   </div>
   <div className="swiper-slide box">
@@ -90,8 +87,7 @@ let ReviewSection = () => {
     </div>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolor
-      dicta cum. Eos beatae eligendi, magni numquam nemo sed ut corrupti, ipsam
-      iure nisi unde et assumenda perspiciatis voluptatibus nihil.
+      dicta cum. 
     </p>
   </div>
 </div>

@@ -7,7 +7,7 @@ const AboutSection = () => {
       <div className="row">
   <div className="image">
     <img
-      src="public/images/about_1.jpg"
+      src="../images/about_1.jpg"
       alt=""
     />
   </div>
