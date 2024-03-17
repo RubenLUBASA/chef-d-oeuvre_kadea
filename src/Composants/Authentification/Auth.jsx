@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import 'Auth.css';
+
 
 const ConnexionForm = () => {
   useEffect(() => {
