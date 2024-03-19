@@ -1,22 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header className="header">
-      <a href="#" className="logo"><span>E</span>vent</a>
-      {<nav className="navbar">
-  <a href="#Acceuil">
-    <i className="fa fa-home" /> Acceuil
-  </a>
-  <a href="#service">Service</a>
-  <a href="#À propos">À propos</a>
-  <a href="#gallerie">Gallerie</a>
-  <a href="#prix">Prix</a>
-  <a href="#revue">revue</a>
-  <a href="#contact">Contact</a>
-  <a href="#connexion">Connexion</a>
-</nav>
-}
+      <Link to="/" className="logo"><span>E</span>vent</Link>
+      <nav className="navbar">
+        <Link to="/acceuil">Acceuil</Link>
+        <Link to="/service">Service</Link>
+        <Link to="/a-propos">À propos</Link>
+        <Link to="/gallerie">Gallerie</Link>
+        <Link to="/prix">Prix</Link>
+        <Link to="/revue">Revue</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="./Composants/Authentification/Auth.jsx">Connexion</Link>
+      </nav>
     </header>
   );
 };

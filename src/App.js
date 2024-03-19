@@ -10,12 +10,17 @@ import ContactSection from './Composants/HomrPage/ContactSection';
 import ThemeToggler from './Composants/HomrPage/ThemeToggler';
 import Footer from './Composants/HomrPage/Footer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Auth from './Composants/Authentification/Auth';
 
 
 function App() {
   return (
     <div>
+      <Router>
       <Header />
+      <Route path="./Composants/Authentification/Auth" component={Auth} />
+    </Router>
       <HomeSection />
       <ServiceSection />
       <AboutSection />
