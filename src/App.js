@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Header from './Composants/HomrPage/Header';
 import HomeSection from './Composants/HomrPage/HomeSection';
@@ -18,8 +18,10 @@ function App() {
   return (
     <div>
       <Router>
+       <Routes>
       <Header />
       <Route path="/Auth" component={<Auth />} />
+       </Routes>
     </Router>
       <HomeSection />
       <ServiceSection />
