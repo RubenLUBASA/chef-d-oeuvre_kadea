@@ -1,4 +1,6 @@
 import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import Header from './Composants/HomrPage/Header';
 import HomeSection from './Composants/HomrPage/HomeSection';
 import ServiceSection from'./Composants/HomrPage/ServiceSection';
@@ -9,8 +11,6 @@ import ReviewSection from './Composants/HomrPage/ReviewSection';
 import ContactSection from './Composants/HomrPage/ContactSection';
 import ThemeToggler from './Composants/HomrPage/ThemeToggler';
 import Footer from './Composants/HomrPage/Footer';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Auth from './Composants/Authentification/Auth';
 
 
@@ -19,7 +19,7 @@ function App() {
     <div>
       <Router>
       <Header />
-      <Route path="./Composants/Authentification/Auth" component={Auth} />
+      <Route path="/Auth" component={<Auth />} />
     </Router>
       <HomeSection />
       <ServiceSection />

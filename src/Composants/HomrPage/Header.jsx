@@ -13,7 +13,7 @@ const Header = () => {
         <Link to="/prix">Prix</Link>
         <Link to="/revue">Revue</Link>
         <Link to="/contact">Contact</Link>
-        <Link to="./Composants/Authentification/Auth.jsx">Connexion</Link>
+        <Link to="/Auth">Connexion</Link>
       </nav>
     </header>
   );

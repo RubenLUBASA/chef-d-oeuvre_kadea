@@ -56,13 +56,13 @@ section {
   color: var(--theme-color);
 }
 
-.header .navbar a {
+.header .navbar Link {
   font-size: 1.7rem;
   color: #fff;
   margin-left: 2rem;
 }
 
-.header .navbar a:hover {
+.header .navbar Link:hover {
   color: var(--theme-color);
 }
 
